@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AUTOROLNIK – autonomiczne maszyny rolnicze w modelu wynajmu. Zbiór 24/7, precyzyjne opryski, prewencja pożarowa. Dla gospodarstw 500 ha+.">
+    <meta name="robots" content="index, follow">
+    <title>AUTOROLNIK – Autonomiczny Zbiór i Agrotechnika | autorolnik.pl</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <span class="logo-icon">&#9881;</span>
+                    <span class="logo-text">AUTO<strong>ROLNIK</strong></span>
+                </a>
+                <nav class="main-nav" id="mainNav">
+                    <ul>
+                        <li><a href="#roi">Kalkulacja ROI</a></li>
+                        <li><a href="#products">Produkty</a></li>
+                        <li><a href="#usp">Przewagi</a></li>
+                        <li><a href="#contact" class="nav-cta">Bezpłatny Audyt</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="container">
+                <div class="hero-content reveal">
+                    <div class="hero-badge">Model RaaS – Robotics as a Service</div>
+                    <h1>Zastąp armię zbieraczy<br><span class="accent">jedną maszyną.</span><br>Zbiór 24/7 bez problemów kadrowych.</h1>
+                    <p class="hero-sub">Wynajmij autonomiczną flotę autorolnik.pl. Wyeliminuj błędy ludzkie, tnij koszty pracy i zwiększaj marżę z każdego hektara. Bez zakupu. Bez ryzyka inwestycyjnego.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary btn-large">Zamów darmowy audyt wydajności</a>
+                        <a href="#roi" class="btn btn-ghost">Zobacz kalkulator ROI ↓</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num">24/7</span>
+                            <span class="stat-label">Praca ciągła</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num">-60%</span>
+                            <span class="stat-label">Koszty zbioru</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num">0</span>
+                            <span class="stat-label">Inwestycja własna</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROI / CHŁODNA KALKULACJA -->
+        <section class="roi-section" id="roi">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Chłodna Kalkulacja</span>
+                    <h2>Co naprawdę kosztuje Twój obecny zbiór?</h2>
+                    <p>Porównanie dla gospodarstwa 500 ha upraw owoców miękkich (sezon letni).</p>
+                </div>
+
+                <div class="roi-compare">
+                    <div class="roi-card roi-traditional reveal">
+                        <div class="roi-card-header traditional">
+                            <span class="roi-icon">👥</span>
+                            <h3>Model tradycyjny</h3>
+                            <span class="roi-label bad">Zmienne ryzyko</span>
+                        </div>
+                        <ul class="roi-list">
+                            <li>
+                                <span class="roi-item-label">Ekipa zbioru (30 osób × 3 mies.)</span>
+                                <span class="roi-item-value bad">≈ 540 000 PLN</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Zakwaterowanie i transport</span>
+                                <span class="roi-item-value bad">≈ 90 000 PLN</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Straty z nieobecności / chorób</span>
+                                <span class="roi-item-value bad">≈ 80 000 PLN</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Błędy ludzkie, uszkodzenia plonu</span>
+                                <span class="roi-item-value bad">≈ 60 000 PLN</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Przerwy nocne (strata okna pogodowego)</span>
+                                <span class="roi-item-value bad">niepoliczalne</span>
+                            </li>
+                        </ul>
+                        <div class="roi-total">
+                            <span>Szacowany koszt sezonu</span>
+                            <strong class="bad">~770 000 PLN</strong>
+                        </div>
+                    </div>
+
+                    <div class="roi-vs">VS</div>
+
+                    <div class="roi-card roi-raas reveal">
+                        <div class="roi-card-header raas">
+                            <span class="roi-icon">🤖</span>
+                            <h3>Model RaaS – AUTOROLNIK</h3>
+                            <span class="roi-label good">Stały, przewidywalny koszt</span>
+                        </div>
+                        <ul class="roi-list">
+                            <li>
+                                <span class="roi-item-label">Wynajem floty autonomicznej</span>
+                                <span class="roi-item-value good">stała stawka / sezon</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Serwis i ubezpieczenie maszyn</span>
+                                <span class="roi-item-value good">w cenie wynajmu</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Straty z nieobecności</span>
+                                <span class="roi-item-value good">0 PLN</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Błędy zbioru</span>
+                                <span class="roi-item-value good">&lt;2% (AI)</span>
+                            </li>
+                            <li>
+                                <span class="roi-item-label">Praca nocna / weekendowa</span>
+                                <span class="roi-item-value good">bez dopłat</span>
+                            </li>
+                        </ul>
+                        <div class="roi-total">
+                            <span>Szacowany koszt sezonu</span>
+                            <strong class="good">Zapytaj o wycenę →</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roi-note reveal">
+                    <strong>Nie kupujesz maszyn.</strong> Wynajmujesz gotową flotę z operatorem technicznym. Twój kapitał zostaje w firmie.
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUKTY -->
+        <section class="products-section" id="products">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Katalog B2B</span>
+                    <h2>Autonomiczne systemy dla Twojego gospodarstwa</h2>
+                    <p>Dedykowane rozwiązania dla dużych producentów rolnych. Każde wdrożenie poprzedzone audytem terenowym.</p>
+                </div>
+
+                <div class="products-grid">
+
+                    <div class="product-card reveal">
+                        <div class="product-img product-img-1">
+                            <div class="product-badge">Bestseller</div>
+                        </div>
+                        <div class="product-body">
+                            <span class="product-tag">Zbiór owoców</span>
+                            <h3>Autonomiczny system zbioru owoców miękkich</h3>
+                            <p>Precyzyjne ramiona zbierające z wizją komputerową rozpoznają dojrzałość owocu w czasie rzeczywistym. Maliny, borówki, truskawki – zbiór bez uszkodzeń, bez przerw, w nocy i podczas upałów.</p>
+                            <ul class="product-specs">
+                                <li><span>Wydajność:</span> do 2 ha / dobę / jednostka</li>
+                                <li><span>Dokładność:</span> 98,3% owoców dojrzałych</li>
+                                <li><span>Praca:</span> 24/7, zasilanie elektryczne</li>
+                            </ul>
+                            <div class="product-footer">
+                                <div class="product-price">od <strong>28 000 PLN</strong> / sezon</div>
+                                <a href="#contact" class="btn btn-outline">Zapytaj o dostępność</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card reveal">
+                        <div class="product-img product-img-2"></div>
+                        <div class="product-body">
+                            <span class="product-tag">Agrotechnika</span>
+                            <h3>System precyzyjnego natrysku i nawożenia Zero-waste</h3>
+                            <p>Autonomiczny dron lub pojazd naziemny ze zmienną dawką środków. AI analizuje mapy plonowania i dane satelitarne NDVI – nawozy i preparaty trafiają tylko tam, gdzie są potrzebne.</p>
+                            <ul class="product-specs">
+                                <li><span>Oszczędność środków:</span> do 40% vs. oprysk tradycyjny</li>
+                                <li><span>Dokumentacja:</span> automatyczny raport Zielonego Ładu</li>
+                                <li><span>Zasięg:</span> do 500 ha / cykl</li>
+                            </ul>
+                            <div class="product-footer">
+                                <div class="product-price">od <strong>12 000 PLN</strong> / sezon</div>
+                                <a href="#contact" class="btn btn-outline">Zapytaj o dostępność</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card reveal">
+                        <div class="product-img product-img-3">
+                            <div class="product-badge product-badge-alert">Nowość 2025</div>
+                        </div>
+                        <div class="product-body">
+                            <span class="product-tag">Bezpieczeństwo</span>
+                            <h3>Moduł prewencji pożarowej z termowizją AI</h3>
+                            <p>Autonomiczny patrol termowizyjny 24/7 wykrywa ogniska cieplne na polach i w sąsiedztwie zabudowań. Natychmiastowy alert SMS/e-mail + integracja ze strażą pożarną. Chroni plon i infrastrukturę.</p>
+                            <ul class="product-specs">
+                                <li><span>Czas reakcji:</span> alert w ciągu 90 sek.</li>
+                                <li><span>Zasięg patrolu:</span> do 800 ha / noc</li>
+                                <li><span>Temperatury:</span> wykrycie od +5°C anomalii</li>
+                            </ul>
+                            <div class="product-footer">
+                                <div class="product-price">od <strong>8 500 PLN</strong> / sezon</div>
+                                <a href="#contact" class="btn btn-outline">Zapytaj o dostępność</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- USP -->
+        <section class="usp-section" id="usp">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Przewagi AUTOROLNIK</span>
+                    <h2>Dlaczego wiodące gospodarstwa wybierają wynajem robotyczny?</h2>
+                </div>
+
+                <div class="usp-grid">
+
+                    <div class="usp-card reveal">
+                        <div class="usp-icon-wrap">
+                            <span class="usp-icon">&#9888;</span>
+                        </div>
+                        <h3>Praca 24/7 – każde okno pogodowe</h3>
+                        <p>Maszyna nie śpi, nie choruje, nie spędza niedzieli u rodziny. W Europie Środkowej okna pogodowe trwają często 48–72 godziny. Autonomiczny system wykorzystuje każdą minutę.</p>
+                    </div>
+
+                    <div class="usp-card reveal">
+                        <div class="usp-icon-wrap">
+                            <span class="usp-icon">&#128196;</span>
+                        </div>
+                        <h3>Automatyczny raport Zielonego Ładu</h3>
+                        <p>Każda operacja maszyny jest logowana z dokładnością GPS. Raport zgodny z wymogami WPR i ESG generuje się automatycznie na koniec sezonu. Koniec z ręczną dokumentacją.</p>
+                    </div>
+
+                    <div class="usp-card reveal">
+                        <div class="usp-icon-wrap">
+                            <span class="usp-icon">&#128661;</span>
+                        </div>
+                        <h3>Mobilność – maszyna jedzie za sezonem</h3>
+                        <p>Flota AUTOROLNIK jest transportowana do Twojego gospodarstwa na początku sezonu i odbierana po zbiorze. Nie zajmujesz miejsca w hali, nie ponosisz kosztów zimowania.</p>
+                    </div>
+
+                    <div class="usp-card reveal">
+                        <div class="usp-icon-wrap">
+                            <span class="usp-icon">&#128200;</span>
+                        </div>
+                        <h3>Zero ryzyka inwestycyjnego</h3>
+                        <p>Zakup autonomicznego kombajnu to 500 000–1 200 000 PLN i 5–7 lat amortyzacji. W modelu RaaS płacisz za efekt, nie za sprzęt. Twój cash-flow pozostaje nienaruszony.</p>
+                    </div>
+
+                    <div class="usp-card reveal">
+                        <div class="usp-icon-wrap">
+                            <span class="usp-icon">&#128269;</span>
+                        </div>
+                        <h3>Precyzja AI – mniej strat, więcej zysku</h3>
+                        <p>Systemy wizji komputerowej zbierają wyłącznie dojrzałe owoce. Dane NDVI z dronów identyfikują strefy o zmiennym plonowaniu. Decyzje oparte na liczbach, nie na intuicji.</p>
+                    </div>
+
+                    <div class="usp-card reveal">
+                        <div class="usp-icon-wrap">
+                            <span class="usp-icon">&#128736;</span>
+                        </div>
+                        <h3>Serwis i wsparcie techniczne wliczone</h3>
+                        <p>Każda jednostka w flocie jest monitorowana zdalnie. W razie awarii technik jest u Ciebie w ciągu 4 godzin – gwarantujemy to umową SLA. Nie tracisz dnia zbioru.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL / TRUST BAR -->
+        <section class="trust-section reveal">
+            <div class="container">
+                <div class="trust-bar">
+                    <div class="trust-item">
+                        <span class="trust-num">47</span>
+                        <span class="trust-label">Gospodarstw obsłużonych</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-num">18 200 ha</span>
+                        <span class="trust-label">Pod autonomicznym zarządem</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-num">99,1%</span>
+                        <span class="trust-label">Dostępność floty (SLA)</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-num">4h</span>
+                        <span class="trust-label">Czas reakcji serwisowej</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMULARZ KONTAKTOWY -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info reveal">
+                        <span class="section-tag">Bezpłatny Audyt</span>
+                        <h2>Zamów audyt wydajności Twojego gospodarstwa</h2>
+                        <p>Nasz specjalista przeanalizuje Twoje uprawy, harmonogram sezonu i aktualną strukturę kosztów. Otrzymasz konkretny raport z potencjałem oszczędności – bez zobowiązań.</p>
+                        <ul class="contact-benefits">
+                            <li>Analiza kosztów zbioru vs. model RaaS</li>
+                            <li>Dobór optymalnej floty do Twoich upraw</li>
+                            <li>Harmonogram wdrożenia i logistyka</li>
+                            <li>Wycena indywidualna na sezon 2025/2026</li>
+                        </ul>
+                        <div class="contact-direct">
+                            <strong>Telefon bezpośredni:</strong><br>
+                            <a href="tel:+48000000000">+48 000 000 000</a><br>
+                            <small>(pon–pt, 7:00–17:00)</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrap reveal">
+                        <form id="contactForm" class="contact-form" action="contact.php" method="POST" novalidate>
+                            <input type="hidden" name="csrf_token" id="csrfToken" value="">
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Imię i Nazwisko <span class="req">*</span></label>
+                                    <input type="text" id="name" name="name" placeholder="Jan Kowalski" required autocomplete="name">
+                                    <span class="form-error" id="nameError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefon <span class="req">*</span></label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+48 600 000 000" required autocomplete="tel">
+                                    <span class="form-error" id="phoneError"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Adres e-mail <span class="req">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="jan@gospodarstwo.pl" required autocomplete="email">
+                                <span class="form-error" id="emailError"></span>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="area">Powierzchnia gospodarstwa (ha) <span class="req">*</span></label>
+                                    <input type="number" id="area" name="area" placeholder="np. 650" min="1" required>
+                                    <span class="form-error" id="areaError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="crops">Rodzaj upraw <span class="req">*</span></label>
+                                    <select id="crops" name="crops" required>
+                                        <option value="">-- wybierz --</option>
+                                        <option value="maliny">Maliny</option>
+                                        <option value="borowki">Borówki</option>
+                                        <option value="truskawki">Truskawki</option>
+                                        <option value="zboza">Zboża</option>
+                                        <option value="rzepak">Rzepak</option>
+                                        <option value="warzywa">Warzywa</option>
+                                        <option value="inne_owoce">Inne owoce</option>
+                                        <option value="mix">Mieszane uprawy</option>
+                                    </select>
+                                    <span class="form-error" id="cropsError"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Dodatkowe informacje (opcjonalnie)</label>
+                                <textarea id="message" name="message" rows="3" placeholder="Opisz krótko swoje potrzeby lub pytania..."></textarea>
+                            </div>
+
+                            <div class="form-group form-consent">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="consent" name="consent" required>
+                                    <span>Wyrażam zgodę na przetwarzanie danych osobowych w celu odpowiedzi na zapytanie ofertowe, zgodnie z <a href="#" class="link">Polityką Prywatności</a>. <span class="req">*</span></span>
+                                </label>
+                                <span class="form-error" id="consentError"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large btn-full" id="submitBtn">
+                                <span class="btn-text">Wyślij zapytanie o audyt</span>
+                                <span class="btn-loading" style="display:none;">Wysyłanie...</span>
+                            </button>
+
+                            <div id="formSuccess" class="form-success" style="display:none;">
+                                <strong>Dziękujemy!</strong> Twoje zapytanie zostało wysłane. Skontaktujemy się z Tobą w ciągu 1 dnia roboczego.
+                            </div>
+                            <div id="formError" class="form-error-msg" style="display:none;">
+                                Wystąpił błąd podczas wysyłania. Spróbuj ponownie lub zadzwoń bezpośrednio.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="logo-text">AUTO<strong>ROLNIK</strong></span>
+                    <p>Autonomiczne systemy rolnicze w modelu wynajmu. Dla profesjonalnych producentów rolnych.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Nawigacja</h4>
+                    <ul>
+                        <li><a href="#roi">Kalkulator ROI</a></li>
+                        <li><a href="#products">Produkty</a></li>
+                        <li><a href="#usp">Przewagi</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <p>biuro@autorolnik.pl</p>
+                    <p>+48 000 000 000</p>
+                    <p>pon–pt, 7:00–17:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AUTOROLNIK. Wszelkie prawa zastrzeżone. | <a href="#">Polityka Prywatności</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
