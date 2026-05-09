@@ -251,6 +251,41 @@
     /* ----------------------------------
        INIT
     ---------------------------------- */
+    /* ----------------------------------
+       SKACZĄCY ZIEMNIAK
+    ---------------------------------- */
+    function initPotato() {
+        const potato = document.getElementById('potato');
+        const modal  = document.getElementById('potatoModal');
+        const closeBtn = document.getElementById('potatoClose');
+        const contactBtn = document.getElementById('potatoContactBtn');
+        if (!potato || !modal) return;
+
+        const openModal = () => {
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        };
+
+        const closeModal = () => {
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+        };
+
+        potato.addEventListener('click', openModal);
+
+        closeBtn && closeBtn.addEventListener('click', closeModal);
+
+        modal.addEventListener('click', e => {
+            if (e.target === modal) closeModal();
+        });
+
+        contactBtn && contactBtn.addEventListener('click', closeModal);
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && modal.style.display === 'flex') closeModal();
+        });
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
         generateCSRF();
         initHeader();
@@ -258,6 +293,7 @@
         initReveal();
         initSmoothScroll();
         initForm();
+        initPotato();
     });
 
 })();
